@@ -20,12 +20,12 @@ layout: 'layouts/question.html'
   </div>
   <ul class="LinkList" role="list">
     <li>
-      <a href="/discrimination/" class="LinkBlock">
+      <a href="{{ '/discrimination/' | url }}" class="LinkBlock">
         <p>I’ve been discriminated against</p>
       </a>
     </li>
     <li>
-      <a href="/discrimination/victimisation/" class="LinkBlock">
+      <a href="{{ '/discrimination/victimisation/' | url }}" class="LinkBlock">
         <p>
           I was targeted because I made or helped with a
           discrimination complaint
@@ -34,7 +34,7 @@ layout: 'layouts/question.html'
     </li>
     <li>
       <a
-        href="/discrimination/sexual-harassment/"
+        href="{{ '/discrimination/sexual-harassment/' | url }}"
         class="LinkBlock"
       >
         <p>I was sexually harassed</p>
@@ -45,7 +45,7 @@ layout: 'layouts/question.html'
       </a>
     </li>
     <li>
-      <a href="/discrimination/harasssment/" class="LinkBlock">
+      <a href="{{ '/discrimination/harasssment/' | url }}" class="LinkBlock">
         <p>I was harassed based on a protected characteristic</p>
         <p class="HelpText">
           This includes any conduct that created a hostile,
@@ -54,10 +54,7 @@ layout: 'layouts/question.html'
       </a>
     </li>
     <li>
-      <a
-        href="/constructive-dismissal/summary.html"
-        class="LinkBlock"
-      >
+      <a class="LinkBlock">
         <p>
           I was forced to quit my job by my employer's behaviour
         </p>
@@ -68,7 +65,7 @@ layout: 'layouts/question.html'
       </a>
     </li>
     <li>
-      <a href="/whistleblowing/" class="LinkBlock">
+      <a class="LinkBlock">
         <p>I was treated unfairly for whistleblowing</p>
       </a>
     </li>
