@@ -8,7 +8,7 @@ layout: 'layouts/question.html'
     <h1 class="Card-heading">How were you discriminated against?</h1>
     <ul class="LinkList" role="list">
       <li>
-        <a href="/discrimination/direct/" class="LinkBlock">
+        <a href="{{ '/discrimination/direct/' | url }}" class="LinkBlock">
           <p>
             I was mistreated because of a protected characteristic
           </p>
@@ -18,7 +18,7 @@ layout: 'layouts/question.html'
         </a>
       </li>
       <li>
-        <a href="/discrimination/indirect/" class="LinkBlock">
+        <a class="LinkBlock">
           <p>
             A rule or practice applied to everyone disadvantaged me because I have a protected characteristic
           </p>
@@ -28,7 +28,7 @@ layout: 'layouts/question.html'
         </a>
       </li>
       <li>
-        <a href="/discrimination/sexual-harassment/" class="LinkBlock">
+        <a class="LinkBlock">
           <p>
             I was sexually harassed
           </p>
@@ -41,7 +41,7 @@ layout: 'layouts/question.html'
         </a>
       </li>
       <li>
-        <a href="/discrimination/harasssment/" class="LinkBlock">
+        <a class="LinkBlock">
           <p>
             I was harassed based on a protected characteristic
           </p>
@@ -54,7 +54,7 @@ layout: 'layouts/question.html'
         </a>
       </li>
       <li>
-        <a href="/discrimination/victimisation/" class="LinkBlock">
+        <a class="LinkBlock">
           <p>
             I was targeted because I made or helped with a discrimination complaint
           </p>
@@ -64,7 +64,7 @@ layout: 'layouts/question.html'
         </a>
       </li>
       <li>
-        <a href="/discrimination/reasonable-adjustments/" class="LinkBlock">
+        <a class="LinkBlock">
           <p>
             My employer didn't make adjustments to accommodate my disability
           </p>
@@ -74,7 +74,7 @@ layout: 'layouts/question.html'
         </a>
       </li>
       <li>
-        <a href="/discrimination/arising-from-disability/" class="LinkBlock">
+        <a class="LinkBlock">
           <p>
             My employer treated me unfairly because of something that resulted from my disability
           </p>
