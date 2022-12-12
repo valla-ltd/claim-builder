@@ -45,12 +45,17 @@ layout: 'layouts/question.html'
       </a>
     </li>
     <li>
-      <a href="{{ '/discrimination/harasssment/' | url }}" class="LinkBlock">
+      <a href="{{ '/discrimination/harassment/' | url }}" class="LinkBlock">
         <p>I was harassed based on a protected characteristic</p>
         <p class="HelpText">
           This includes any conduct that created a hostile,
           intimidating or humiliating environment.
         </p>
+      </a>
+    </li>
+    <li>
+      <a href="{{ '/whistleblowing/' | url }}" class="LinkBlock">
+        <p>I was treated unfairly for whistleblowing</p>
       </a>
     </li>
     <li>
@@ -62,11 +67,6 @@ layout: 'layouts/question.html'
           To make this claim, you must have been employed by the
           respondent for at least 2 years
         </p>
-      </a>
-    </li>
-    <li>
-      <a class="LinkBlock">
-        <p>I was treated unfairly for whistleblowing</p>
       </a>
     </li>
     <li>

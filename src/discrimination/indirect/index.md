@@ -4,67 +4,60 @@ layout: 'layouts/question.html'
 
 <section class="Card">
   <div class="Card-segment">
-    <div class="u-fs--1 u-case--upper u-margin-b-e--lg">Direct discrimination claim</div>
+    <div class="u-fs--1 u-case--upper u-margin-b-e--lg">Indirect discrimination claim</div>
     <h1 class="Card-heading">What protected characteristic is this discrimination claim for?</h1>
     <ul class="LinkList" role="list">
       <li>
-        <a href="{{ '/discrimination/direct/age/' | url }}" class="LinkBlock">
+        <a href="{{ '/discrimination/indirect/age/' | url }}" class="LinkBlock">
           <p>
             Age
           </p>
         </a>
       </li>
       <li>
-        <a href="{{ '/discrimination/direct/disability/' | url }}" class="LinkBlock">
+        <a href="{{ '/discrimination/indirect/disability/' | url }}" class="LinkBlock">
           <p>
             Disability
           </p>
         </a>
       </li>
       <li>
-        <a href="{{ '/discrimination/direct/gender-reassignment/' | url }}" class="LinkBlock">
+        <a href="{{ '/discrimination/indirect/gender-reassignment/' | url }}" class="LinkBlock">
           <p>
             Gender reassignment
           </p>
         </a>
       </li>
       <li>
-        <a href="{{ '/discrimination/direct/marriage-civil-partnership/' | url }}" class="LinkBlock">
+        <a href="{{ '/discrimination/indirect/marriage-civil-partnership/' | url }}" class="LinkBlock">
           <p>
             Marriage and civil partnership
           </p>
         </a>
       </li>
       <li>
-        <a href="{{ '/discrimination/direct/pregnancy-maternity/' | url }}" class="LinkBlock">
-          <p>
-            Pregnancy and maternity
-          </p>
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/discrimination/direct/race/' | url }}" class="LinkBlock">
+        <a href="{{ '/discrimination/indirect/race/' | url }}" class="LinkBlock">
           <p>
             Race
           </p>
         </a>
       </li>
       <li>
-        <a href="{{ '/discrimination/direct/religion-belief/' | url }}" class="LinkBlock">
+        <a href="{{ '/discrimination/indirect/religion-belief/' | url }}" class="LinkBlock">
           <p>
             Religion and belief
           </p>
         </a>
       </li>
       <li>
-        <a href="{{ '/discrimination/direct/sex/' | url }}" class="LinkBlock">
+        <a href="{{ '/discrimination/indirect/sex/' | url }}" class="LinkBlock">
           <p>
             Sex
           </p>
         </a>
       </li>
       <li>
-        <a href="{{ '/discrimination/direct/sexual-orientation/' | url }}" class="LinkBlock">
+        <a href="{{ '/discrimination/indirect/sexual-orientation/' | url }}" class="LinkBlock">
           <p>
             Sexual orientation
           </p>

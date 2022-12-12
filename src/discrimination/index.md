@@ -18,7 +18,7 @@ layout: 'layouts/question.html'
         </a>
       </li>
       <li>
-        <a class="LinkBlock">
+        <a href="{{ '/discrimination/indirect/' | url }}" class="LinkBlock">
           <p>
             A rule or practice applied to everyone disadvantaged me because I have a protected characteristic
           </p>
@@ -28,7 +28,7 @@ layout: 'layouts/question.html'
         </a>
       </li>
       <li>
-        <a class="LinkBlock">
+        <a href="{{ '/discrimination/sexual-harassment/' | url }}" class="LinkBlock">
           <p>
             I was sexually harassed
           </p>
@@ -41,7 +41,7 @@ layout: 'layouts/question.html'
         </a>
       </li>
       <li>
-        <a class="LinkBlock">
+        <a href="{{ '/discrimination/harassment/' | url }}" class="LinkBlock">
           <p>
             I was harassed based on a protected characteristic
           </p>
@@ -54,7 +54,7 @@ layout: 'layouts/question.html'
         </a>
       </li>
       <li>
-        <a class="LinkBlock">
+        <a href="{{ '/discrimination/victimisation/' | url }}" class="LinkBlock">
           <p>
             I was targeted because I made or helped with a discrimination complaint
           </p>
@@ -64,7 +64,7 @@ layout: 'layouts/question.html'
         </a>
       </li>
       <li>
-        <a class="LinkBlock">
+        <a href="{{ '/discrimination/reasonable-adjustments/' | url }}" class="LinkBlock">
           <p>
             My employer didn't make adjustments to accommodate my disability
           </p>
@@ -74,9 +74,9 @@ layout: 'layouts/question.html'
         </a>
       </li>
       <li>
-        <a class="LinkBlock">
+        <a  href="{{ '/discrimination/arising-from-disability/' | url }}" class="LinkBlock">
           <p>
-            My employer treated me unfairly because of something that resulted from my disability
+            My employer treated me unfairly because of a situation that arose from my disability
           </p>
           <p class="ClaimLabel">
             Discrimination arising from a disability
