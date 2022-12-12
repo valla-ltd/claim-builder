@@ -99,7 +99,7 @@ layout: 'layouts/question.html'
 </div>
 <div class="Card-segment">
   <div class="ButtonGroup">
-    <a href="/index.html" class="Button Button--ghost">
+    <a href="../" class="Button Button--ghost">
       <svg
         class="Icon"
         fill="none"
