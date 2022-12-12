@@ -5,7 +5,7 @@ layout: 'layouts/summary.html'
 <section class="Card">
   <div class="Card-segment">
     <div class="u-fs--1 u-case--upper u-margin-b-e--lg">
-      Unfair dismissal for whisteleblowing claim
+      Automatic unfair dismissal for whistleblowing claim
     </div>
     <h1 class="Card-heading">
       Write a short summary of the details of your claim
@@ -37,7 +37,7 @@ layout: 'layouts/summary.html'
       </div>
     </form>
     <p class="u-margin-b-s--lg">
-      This claim will be saved as <b>Unfair dismissal for whisteleblowing</b>
+      This claim will be saved as <b>Automatic unfair dismissal for whistleblowing</b>
     </p>
   </div>
   <div class="Card-segment">
