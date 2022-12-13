@@ -59,6 +59,11 @@ layout: 'layouts/question.html'
       </a>
     </li>
     <li>
+      <div class="HelpText u-margin-b-s--xl" style="background-color: var(--page); padding: 0.5em 1em;">
+        The options below are not available in the prototype but will be when we launch this feature in the Valla platform
+      </div>
+    </li>
+    <li>
       <a class="LinkBlock">
         <p>
           I was forced to quit my job by my employer's behaviour
