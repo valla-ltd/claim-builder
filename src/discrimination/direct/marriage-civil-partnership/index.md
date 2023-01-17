@@ -8,14 +8,14 @@ layout: 'layouts/question.html'
     <h1 class="Card-heading">Is your claim about a marriage or a civil partnership?</h1>
     <ul class="LinkList" role="list">
       <li>
-        <a href="/discrimination/direct/marriage-civil-partnership/marriage/" class="LinkBlock">
+        <a href="{{ '/discrimination/direct/marriage-civil-partnership/marriage/' | url }}" class="LinkBlock">
           <p>
             Marriage
           </p>
         </a>
       </li>
       <li>
-        <a href="/discrimination/direct/marriage-civil-partnership/civil-partnership/" class="LinkBlock">
+        <a href="{{ '/discrimination/direct/marriage-civil-partnership/civil-partnership/' | url }}" class="LinkBlock">
           <p>
             Civil partnership
           </p>
